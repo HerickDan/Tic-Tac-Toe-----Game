@@ -7,35 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculadora">
-       
+    <div class="calc">
+        <h1>
+            Jogo da Velha
+        </h1>
         <table>
             <tr>
-                <td onclick="chose()" class="case selected1"></td>
-                <td onclick="chose()" class="case selected2"></td>
-                <td onclick="chose()" class="case selected3"></td>
-               
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
             </tr>
             <tr>
-                <td onclick="chose()" class="case selected4"></td>
-                <td onclick="chose()" class="case selected5"></td>
-                <td onclick="chose()" class="case selected6"></td>
-                
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>              
             </tr>
             <tr>
-                <td onclick="chose()" class="case selected7"></td>
-                <td onclick="chose()" class="case selected8"></td>
-                <td onclick="chose()" class="case selected9"></td>
-                
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
             </tr>
-            <tr>
-                <td onclick="chose()" class="case selected10"></td>
-                <td onclick="chose()" class="case selected11"></td>
-                <td onclick="chose()" class="case selected12"></td>
-              
-            </tr>
-           
         </table>
+        <button class="reset" onclick="reset()">
+            Reiniciar
+        </button>
         <script src="script.js"></script>
 </body>
 </html>
