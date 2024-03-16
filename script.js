@@ -11,3 +11,9 @@ function chose (celula) {
         }
     }
 }
+function reset () {
+    const positions = document.getElementsByClassName('position');
+    for (let i = 0; i < positions.length; i++) {
+        positions[i].textContent = "";
+    }
+}

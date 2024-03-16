@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculadora">
+    <div class="calc">
+        <h1>
+            Jogo da Velha
+        </h1>
         <table>
             <tr>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
             </tr>
             <tr>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>              
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>              
             </tr>
             <tr>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>
-                <td><button class="case" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
+                <td><button class="position" onclick="chose(this)"></button></td>
             </tr>
         </table>
+        <button class="reset" onclick="reset()">
+            Reiniciar
+        </button>
         <script src="script.js"></script>
 </body>
 </html>
